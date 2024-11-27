@@ -7,6 +7,10 @@ const bcrypt = require('bcryptjs');
 const app =  express();
 const PORT = process.env.PORT || 5000;
 
+const productRoute = require('./routes/productRoute');
+
+app.use('/api/products', productRoute);
+
 //middleware
 app.use(cors());
 app.use(express.json());
@@ -30,8 +34,7 @@ app.get('/', (req, res)=> {
     });
 });
 
-// const authRoutes = require('./routes/authRoutes');
-// app.use('/api/auth', authRoutes);
+
 
 // start server
 app.listen(PORT, () => {
