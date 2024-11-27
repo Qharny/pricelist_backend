@@ -24,7 +24,7 @@ The Pricelist Backend is a Node.js application that serves as the backend for a 
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/pricelist-backend.git
+   git clone https://github.com/qharny/pricelist-backend.git
    cd pricelist-backend
    ```
 
