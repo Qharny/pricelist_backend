@@ -30,6 +30,9 @@ app.get('/', (req, res)=> {
     });
 });
 
+// const authRoutes = require('./routes/authRoutes');
+// app.use('/api/auth', authRoutes);
+
 // start server
 app.listen(PORT, () => {
     console.log(`Server started on port ${PORT}`);
