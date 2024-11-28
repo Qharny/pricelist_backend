@@ -4,7 +4,7 @@ const mongoose = require('mongoose');
 const cors = require('cors');
 
 const authRoutes = require('./routes/route');
-const productRoutes = require('./routes/productRoutes');
+const productRoutes = require('./routes/productRoute');
 
 const app = express();
 const PORT = process.env.PORT || 5000;
